@@ -1,10 +1,11 @@
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 微軟正黑體;
+  margin: 0;
+  padding: 0;
+  font-family: 微軟正黑體;
 }
 
-#banner {
-    
+body {
+  background: #3c838c44;
 }
+/*# sourceMappingURL=style.css.map */
