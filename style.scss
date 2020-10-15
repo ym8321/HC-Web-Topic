@@ -7,3 +7,45 @@
 body {
     background: #3c838c44;
 }
+
+#banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/topic-banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+//  首頁、關於我 導覽列
+#banner nav, #banner-about, #banner-contact a {
+    padding: 30px;
+    color: #eee;
+}
+
+#banner a, #banner-about a, #banner-contact a {
+    color: white;
+    /* 文字-裝飾：無 */
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0 30px;
+    transition: 0.3s;
+}
+
+#banner hr {
+    width: 500px;
+    opacity: 0.7;
+    margin: 0 auto;
+}
+
+#banner h1 {
+    text-align: center;
+    font-size: 110px;
+    padding: 30px;
+    color: #eee;
+}
+
+p {
+    text-align: center;
+    color: #eee;
+    font-size: 30px;
+}
