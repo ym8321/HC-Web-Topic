@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 微軟正黑體;
 }
 
@@ -8,50 +9,56 @@ body {
     background: #3c838c44;
 }
 
+// 橫幅
 #banner {
     width: 100%;
     height: 80vh;
     background-image: url(./img/topic-banner.jpg);
+     /* 背景-尺寸：填滿 - 50%、500px */
     background-size: auto;
+    /* 背景-附著：固定 */
     background-attachment: fixed;
 }
 
 //  首頁、關於我 導覽列
-#banner nav, #banner-about, #banner-contact a {
-    padding: 30px;
-    
+#banner nav, #banner-about nav, #banner-contact nav{
+    padding: 20px;
+    font-size: 24px;
+    color: #1d6d45;
 }
 
-#banner a, #banner-about a, #banner-contact a {
+#banner a, #banner-about a {
     /* 文字-裝飾：無 */
     text-decoration: none;
-    color: #779988;
+    color: #1d6d45;
     font-size: 24px;
     padding: 0 30px;
+    margin: 30px;
     transition: 0.3s;
 }
 
-#banner hr {
-    width: 500px;
-    opacity: 0.7;
-    margin: 0 auto;
+#hr {
+    width: 900px;
+    height: 50px;
+    background:  #1d6d45;
+    border: 0;
 }
 
-#banner h1 {
+#banner h1, banner hr {
     text-align: center;
-    color: #779988;
+    color: #1d6d45;
     font-size: 100px;
     padding: 30px;
 }
 
 p {
     text-align: center;
-    color: #779988;
+    color: #1d6d45;
     font-size: 30px;
 }
 
 h2 {
     text-align: center;
-    color: #779988;
+    color: #1d6d45;
     font-size: 30px;
 }
