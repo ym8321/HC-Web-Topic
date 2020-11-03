@@ -24,7 +24,8 @@ body {
  #banner-contact nav  ,#banner-contact nav a{
     padding: 10px 30px;
     margin: 20px auto;
-    font-size: 22px;
+    text-decoration: none;
+    font-size: 24px;
     color: #1d6d45;
 }
 
@@ -38,25 +39,30 @@ body {
     transition: 0.3s;
 }
 
-#hr {
-    width: 900px;
-    height: 50px;
-    background:  #1d6d45;
+hr {
+    width: 800px;
+    height: 3px; 
+    background: #1d6d45;
     border: 0;
 }
 
-#banner h1, banner hr {
+h1 {
     text-align: center;
     color: #1d6d45;
     font-size: 100px;
-    padding: 30px;
+    padding: 10px;
+    border-radius: 40px;
+    background: rgba(253, 250, 250, 0.384);
 }
 
 p {
-    padding: 20px;
-    text-align: center;
+    margin: 20px 5px;
+    padding: 5px;
     color: #1d6d45;
     font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(253, 250, 250, 0.384);
 }
 
 h2 {
