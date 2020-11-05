@@ -9,16 +9,7 @@ body {
     background: #3c838c44;
 }
 
-// 橫幅
-#banner {
-    width: 100%;
-    height: 69vh;
-    background-image: url(./img/topic-banner.jpg);
-     /* 背景-尺寸：填滿 - 50%、500px */
-    background-size: 100%;
-    /* 背景-附著：固定 */
-    background-attachment: fixed;
-}
+
 
 //  首頁、關於我 導覽列
  #banner-contact nav  ,#banner-contact nav a{
@@ -44,6 +35,7 @@ hr {
     height: 3px; 
     background: #1d6d45;
     border: 0;
+    margin-left: 150px;
 }
 
 h1 {
@@ -56,7 +48,7 @@ h1 {
 }
 
 p {
-    margin: 10px;
+    margin-top: 10px;
     padding: 5px;
     color: #1d6d45;
     font-size: 30px;
