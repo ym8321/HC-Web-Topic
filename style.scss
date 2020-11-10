@@ -12,12 +12,25 @@ body {
 
 
 //  首頁、關於我 導覽列
- #banner-contact nav  ,#banner-contact nav a{
-    padding: 10px 30px;
-    margin: 20px auto;
+ #banner-contact nav a{
+    padding: 10px 25px;
+    margin: 0px 15px;
     text-decoration: none;
+    display: inline;
+    border-radius: 5px;
     font-size: 24px;
     color: #1d6d45;
+    transition: 0.8s;
+    
+    &:hover {
+        background: rgba(98, 202, 171, 0.7);
+        color: white;
+    }
+}
+
+#banner-contact nav {
+    margin: 10px;
+    padding: 16px;
 }
 
 #banner a, #banner-about a {
@@ -34,6 +47,7 @@ hr {
     width: 800px;
     height: 3px; 
     background: #1d6d45;
+    opacity: 0.7;
     border: 0;
     margin-left: 150px;
 }
@@ -58,7 +72,8 @@ p {
 }
 
 h2 {
+    padding: 20px;
     text-align: center;
     color: #1d6d45;
-    font-size: 30px;
+    font-size: 34px;
 }
